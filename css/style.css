@@ -19,9 +19,11 @@ section {
 }
 
 section>h2 {
-    float: right;
+    float: left;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+    border-top: 1px dashed red;
+    border-right: 1px solid purple;
     margin: 0;
     width: 230px;
     text-align: center;
@@ -29,7 +31,7 @@ section>h2 {
     font-size: 24px;
     font-weight: bold;
     height: 45px;
-    padding-top: 10px;
+    
 }
 
 section.lorem1>h2 {
